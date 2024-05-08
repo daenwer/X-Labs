@@ -1,0 +1,5 @@
+venv
+.vscode
+db.sqlite3
+book/private_settings.py
+__pycache__
