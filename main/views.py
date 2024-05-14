@@ -46,5 +46,5 @@ class BookViewSet(viewsets.ModelViewSet):
     filter_backends = [filters.SearchFilter]
     search_fields = [
         'name', 'description', 'year_of_publishing', 
-        'author__first_name', 'author__last_name'
+        'authors__first_name', 'authors__last_name'
     ]
